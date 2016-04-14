@@ -165,6 +165,7 @@ section {
 }
 
 #about .thumbnail img {
+  background-image: url("img/t1.jpg");
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -173,8 +174,8 @@ section {
 }
 
 #about .col-md-4 {
-  border: #ff4351;
-  background: #ff4351;
+  border: transparent;
+  background: transparent;
 }
 
 #about .icon-social-facebook, #about .icon-social-twitter, #about .icon-social-github {
@@ -202,6 +203,7 @@ section {
   background: transparent;
   color: #323a45;
   text-decoration: none;
+  margin: 2px;
 }
 
 #portfolio a {
