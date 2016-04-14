@@ -3,12 +3,37 @@
     #swiper {
         height: 600px;
         position: relative;
-        background: #1b9af7;
         font-family: Proxima Nova, sans-serif;
         font-size: 14px;
         color:#fff;
         margin: 0;
         padding: 0;
+        background: linear-gradient(359deg, #1b9af7, #0885dd);
+background-size: 400% 400%;
+-webkit-animation: AnimationName 19s ease infinite;
+-moz-animation: AnimationName 19s ease infinite;
+-o-animation: AnimationName 19s ease infinite;
+animation: AnimationName 19s ease infinite;
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
     }
     .swiper-container {
         width: 300px;
@@ -29,10 +54,10 @@
         padding-top: 10px;
     }
     .swiper-pagination-bullet {
-        background: #ffffff;
+        background: #0776c5;
     }
     .swiper-pagination-bullet-active {
-        background: #eeeeee;
+        background: #0776c5;
     }
 /* End Swiper */
 
