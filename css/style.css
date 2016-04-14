@@ -75,8 +75,8 @@ section {
 /* title */
 .navbar-default .navbar-brand {
     color: #1b9af7;
-    line-height: 40px;
-    font-weight: 400;
+    line-height: 30px;
+    font-weight: 200;
     font-size: 18px;
 }
 .navbar-default .navbar-brand:hover,
@@ -152,29 +152,30 @@ section {
 
 #about .container {
   margin: 10px;
-  border: 1px solid #fff;
+  border: 1.5px solid #e60000;
 }
 
 #about h3, #about h2, #about h3 small, #about p {
   color: #fff;
 }
 
+#about .thumbnail {
+  background: #ff4351;
+  border: 1px solid #ff4351;
+}
+
 #about .thumbnail img {
+  background-image: url("img/t1.jpg");
   width: 200px;
   height: 200px;
   border-radius: 50%;
   padding: 12px;
-  border: 1px solid #fff;
-}
-
-#about .thumbnail {
-  border: transparent;
-  background: transparent;
+  border: 1.5px solid #e60000;
 }
 
 #about .col-md-4 {
-  border: #ff4351;
-  background: #ff4351;
+  border: transparent;
+  background: transparent;
 }
 
 #about .icon-social-facebook, #about .icon-social-twitter, #about .icon-social-github {
@@ -202,6 +203,7 @@ section {
   background: transparent;
   color: #323a45;
   text-decoration: none;
+  margin: 2px;
 }
 
 #portfolio a {
@@ -233,7 +235,7 @@ color: #323a45;
   padding-right: 10px;
   color: #feae1b;
   text-decoration: none;
-  box-shadow: 0px 3px 5px #888;
+  box-shadow: 0px 3px 5px #e49501;
 }
 
 #shape-sub-footer .shape-side-grid-inset {
