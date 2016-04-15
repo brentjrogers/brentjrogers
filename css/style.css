@@ -111,6 +111,7 @@ section {
 /* link */
 .navbar-default .navbar-nav > li > a {
     color: #323a45;
+    line-height: 30px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
