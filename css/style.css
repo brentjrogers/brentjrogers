@@ -8,32 +8,7 @@
         color:#fff;
         margin: 0;
         padding: 0;
-        background: linear-gradient(359deg, #1b9af7, #0885dd);
-background-size: 400% 400%;
--webkit-animation: AnimationName 19s ease infinite;
--moz-animation: AnimationName 19s ease infinite;
--o-animation: AnimationName 19s ease infinite;
-animation: AnimationName 19s ease infinite;
-@-webkit-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
-}
+        border-bottom: 5px solid #fff;
     }
     .swiper-container {
         width: 300px;
@@ -45,19 +20,72 @@ animation: AnimationName 19s ease infinite;
         margin-left: -150px;
         margin-top: -150px;
     }
+    .top-content {
+        text-align: center;
+        vertical-align: middle;
+        margin-top: -50px;
+    }
+    .top-content h1 {
+        vertical-align: middle;
+        background: transparent;      
+        color: #eee;
+        font-weight: normal;
+        padding-bottom: 8px;
+        font-size: 34px;
+        text-shadow: 0px 3px 5px #0667ac;
+    }
+    .bottom-content {
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 50px;
+    }
+    .bottom-content .button-caution {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        background: #eee;
+        border: 1px solid #eee;
+        border-bottom: 2px solid #ccc;
+        color: #1b9af7;
+        font-size: 24px;
+        box-shadow: 0px 3px 5px #0667ac;
+     }
     .swiper-slide {
         text-align: center;
         vertical-align: middle;
         background-position: center;
         background-size: cover;
-        background-color: #0993f6;
-        padding-top: 10px;
+        background-color: #0885dd;
+        border-radius: 5px;
+    }
+    .swiper-slide .top {
+        color: #fff;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border-bottom: 2px solid #0885dd;
+    }
+    .swiper-slide .top h2 {
+        height: 10px;
+        color: #0885dd;
+    }
+    .swiper-slide .bottom {
+        color: #fff;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border-top: 2px solid #0885dd;
+    }
+    .swiper-slide .bottom p {
+        color: #0885dd;
     }
     .swiper-pagination-bullet {
-        background: #0776c5;
+        background: #0885dd;
     }
     .swiper-pagination-bullet-active {
-        background: #0776c5;
+        background: #0885dd;
     }
 /* End Swiper */
 
@@ -170,24 +198,25 @@ section {
 
 
 #about {
-  background: #ff4351;
+  background: #323a45;
   color: #fff;
   padding-bottom: 10px;
   padding-top: 10px;
+  border-bottom: 5px solid #fff;
 }
 
 #about .container {
   margin: 10px;
-  border: 1.5px solid #e60000;
+  border: 1.5px solid #20252c;
 }
 
 #about h3, #about h2, #about h3 small, #about p {
-  color: #fff;
+  color: #a6b0bf;
 }
 
 #about .thumbnail {
-  background: #ff4351;
-  border: 1px solid #ff4351;
+  background: #323a45;
+  border: 1px solid #323a45;
 }
 
 #about .thumbnail img {
@@ -196,7 +225,7 @@ section {
   height: 200px;
   border-radius: 50%;
   padding: 12px;
-  border: 1.5px solid #e60000;
+  border: 1.5px solid #20252c;
 }
 
 #about .col-md-4 {
@@ -204,46 +233,54 @@ section {
   background: transparent;
 }
 
-#about .icon-social-facebook, #about .icon-social-twitter, #about .icon-social-github {
+#about i {
   color: #fff;
 }
 
 #portfolio {
   padding-bottom: 25px;
   color: #323a45;
-  background: #fff;
+  background: #feae1b;
+  border-bottom: 5px solid #fff;
 }
 
 #portfolio h2, p {
-  color: #323a45;
+  color: #eee;
 }
 
 #portfolio .shape-img {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   width: 100%;
   height: auto;
 }
 
 #portfolio .btn {
-  border: 1px solid #323a45;
+  border: 1px solid #eee;
   background: transparent;
-  color: #323a45;
+  color: #eee;
   text-decoration: none;
   margin: 2px;
 }
 
 #portfolio a {
 text-decoration: none;
-color: #323a45;
+color: #eee;
 }
 
 #contact {
   text-align: center;
-  background: #feae1b;
+  background: #ff4351;
   color: #ffffff;
+  padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 5px solid #fff;
+}
+#contact i {
+  color: #323a45;
+  font-size: 48px;
+  margin: 15px;
 }
 
 #contact p {
@@ -259,9 +296,9 @@ color: #323a45;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #feae1b;
+  color: #ff4351;
   text-decoration: none;
-  box-shadow: 0px 3px 5px #e49501;
+  box-shadow: 0px 3px 5px #b3000c;
 }
 
 #shape-sub-footer .shape-side-grid-inset {
@@ -280,13 +317,18 @@ color: #323a45;
 #shape-sub-footer {
   background: #00bcd4;
   padding-top: 25px;
-  margin-top: 2px;
   color: #fff;
+  border-bottom: 5px solid #fff;
 }
 
 #shape-sub-footer .shape-side-grid {
   padding: 15px;
   margin: 0 -15px 15px;
+}
+
+#shape-sub-footer .shape-side-grid i {
+  font-size: 20px;
+  padding: 10px;
 }
 
 #shape-sub-footer .shape-side-grid h4 {
@@ -301,10 +343,17 @@ color: #323a45;
   float: right;
 }
 
-#shape-sub-footer .right-graph img {
+#shape-sub-footer .right-graph i {
+  font-size: 80px;
+  color: #fff;
   margin: 0px;
   padding-right: 15px;
   vertical-align: middle;
+}
+
+#shape-sub-footer .right-graph .icon-pencil {
+  font-size: 60px;
+  color: #99f3ff;
 }
 
 .shape-footer {
@@ -312,7 +361,6 @@ color: #323a45;
   color: #fff;
   text-align: center;
   background-color: #323a45;
-  border-top: 1px solid #323a45;
 }
 
 .shape-footer p {
