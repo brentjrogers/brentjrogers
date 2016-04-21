@@ -5,9 +5,6 @@
     <title>Brent J Rogers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
-
    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -16,17 +13,18 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/my.css" rel="stylesheet">
-    <link href="css/button.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
+    
+    <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     
 </head>
 <body>
@@ -38,7 +36,7 @@
             <span class="sr-only">Toggle navigation</span>
             <i class="icon-compass"></i>
           </button>
-          <a class="navbar-brand" href="#">BJR</a>
+          <a class="navbar-brand" href="#">BRENT J ROGERS</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -50,23 +48,26 @@
       </div>
     </nav>
 
-    <!-- Start Swiper -->
-    <section id="swiper">
-    <div class="swiper-container">
-    <div class="top-content"><h1>BRENT J ROGERS</h1></div>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><div class="top"><h2></h2></div><img src="img/brent.svg"><div class="bottom"><h2></h2></div></div>
-            <div class="swiper-slide"><div class="top"><h2></h2></div><img src="img/brent.svg"><div class="bottom"><h2></h2></div></div>
-            <div class="swiper-slide"><div class="top"><h2></h2></div><img src="img/brent.svg"><div class="bottom"><h2></h2></div></div>
-            <div class="swiper-slide"><div class="top"><h2></h2></div><img src="img/brent.svg"><div class="bottom"><h2></h2></div></div>
-            <div class="swiper-slide"><div class="top"><h2></h2></div><img src="img/brent.svg"><div class="bottom"><h2></h2></div></div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <div class="bottom-content"><p><a class="button-caution" href="http://bjrenterprise.com">Learn More</a></p></div>
-    </div>
-    </section>
-    <!-- End Swiper -->
+    <!-- Start Particles -->
+    <div id="particles-js"><div class="shield">
+    <h1>BJR</h1>
+    <br>
+    <br>
+    <br>
+    <h2>This is my webpage</h2>
+    <br>
+    <br>
+    <br>
+    <p><a href="http://bjrenterprise.com" class="button-primary">Learn More</a></p>
+</div></div>
+
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+
+    <!-- End Particles -->
 
  <section id="about" class="content">
       <div class="container">
@@ -176,11 +177,11 @@
           <div class="shape-side-grid">
             <h4>Social</h4>
             <ol class="list-unstyled">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-medium"></span></i></li>
+              <li><a href="http://facebook.com/brent.rogers.121"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="http://twitter.com/brentjrogers"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://dribbble.com/brentjrogers"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="http://behance.net/brentjrogers"><i class="fa fa-behance"></i></a></li>
+              <li><a href="http://medium.com/brentjrogers"><i class="fa fa-medium"></span></i></li>
             </ol>
           </div>
         </div><!-- /.shape-side-grid -->
@@ -191,7 +192,8 @@
       <p>
         <a href="#">Back to top</a>
       </p>
-    </footer>           
+    </footer>    
+           
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
     <script>
     WebFont.load({
@@ -200,9 +202,6 @@
       }
     });
     </script>
-
-    <!-- Swiper JS -->
-    <script src="js/swiper.min.js"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
@@ -210,28 +209,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     
-    <!-- Custom styles for this template -->
-    
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        effect: 'cube',
-        grabCursor: true,
-        loop: true,
-        autoplay: 1000,
-        speed: 1000,
-        cube: {
-            shadow: true,
-            slideShadows: true,
-            shadowOffset: 20,
-            shadowScale: 0.94
-        }
-    });
-    </script>
+   
     
 </body>
 </html>
