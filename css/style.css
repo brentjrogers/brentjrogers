@@ -118,18 +118,28 @@ canvas{
 
 .overlay h1 {
   text-align: center;
-  color: #fff;
+  color: #00bcd4;
   font-size: 48px;
   font-weight: 200;
   background: transparent;
+  text-shadow: rgb(32, 37, 44) 2px 4px 6px;
+}
+
+.overlay h1 .one {
+  color: #feae1b;
+}
+
+.overlay h1 .two {
+  color: #ff4351;
 }
 
 .overlay p {
   text-align: center;
-  color: #fff;
-  font-size: 32px;
+  color: #feae1b;
+  font-size: 24px;
   font-weight: 200;
   background: transparent;
+  text-shadow: rgb(32, 37, 44) 2px 4px 6px;
 }
 
 .overlay a {
@@ -141,9 +151,10 @@ canvas{
   padding-top: 7px;
   padding-left: 18px;
   padding-right: 18px;
-  color: #1b9af7;
-  background: transparent;
+  color: #fff;
+  background: #1b9af7;
   font-weight: 200;
+  box-shadow: rgb(32, 37, 44) 2px 4px 6px;
 }
 
 
