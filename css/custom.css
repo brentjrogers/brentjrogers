@@ -47,6 +47,7 @@ section {
     line-height: 30px;
     font-weight: 200;
     font-size: 18px;
+    text-shadow: rgb(32, 37, 44) 2px 4px 6px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -101,6 +102,7 @@ section {
     color: #1b9af7;
     font-size: 22px;
     line-height: 30px;
+    text-shadow: rgb(32, 37, 44) 2px 4px 6px;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -180,16 +182,17 @@ section {
 }
 
 #portfolio .btn {
-  border: 1px solid #60677c;
-  background: transparent;
-  color: #60677c;
+  border: 2px solid #fec967;
+  background: #feae1b;
+  color: #ffedcc;
   text-decoration: none;
+  font-weight: 400;
   margin: 2px;
 }
 
 #portfolio a {
 text-decoration: none;
-color: #60677c;
+color: #ffedcc;
 }
 
 #contact {
