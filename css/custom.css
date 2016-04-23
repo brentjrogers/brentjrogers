@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: 'proxima nova', sans-serif;
+  font-family: "Proxima Nova", sans-serif, Kohinoor Telugu, Kohinoor Telugu-light;
   color: #fff;
   font-size: 16px;
   font-weight: 200;
@@ -21,13 +21,14 @@ h6, .h6 {
   color: #fff;
   font-size: 22px;
   font-weight: 200;
-  
+  margin-bottom: 10px;
 }
 
 p,.p {
   color: #fff;
   font-size: 16px;
   font-weight: 200;
+  margin-bottom: 10px;
 }
 
 section {
@@ -38,16 +39,15 @@ section {
 
 /* navbar */
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+    background-color: #fff;
+    border-color: #fff;
 }
 /* title */
 .navbar-default .navbar-brand {
     color: #1b9af7;
-    line-height: 30px;
     font-weight: 200;
-    font-size: 18px;
-    text-shadow: rgb(32, 37, 44) 2px 4px 6px;
+    font-size: 22px;
+    line-height: 30px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -66,43 +66,42 @@ section {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #1b9af7;
-    background-color: transparent;
+    background-color: #fff;
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     color: #1b9af7;
-    background-color: transparent;
+    background-color: #fff;
 }
 /* caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: transparent;
-    border-bottom-color: transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: transparent;
-    border-bottom-color: transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
 }
 .navbar-default .navbar-nav > .open > a .caret, 
 .navbar-default .navbar-nav > .open > a:hover .caret, 
 .navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: transparent;
-    border-bottom-color: transparent;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
 }
 /* mobile version */
 .navbar-default .navbar-toggle {
-    border-color: transparent;
+    border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: transparent;
+    background-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-compass {
     color: #1b9af7;
     font-size: 22px;
     line-height: 30px;
-    text-shadow: rgb(32, 37, 44) 2px 4px 6px;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -112,6 +111,11 @@ section {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #1b9af7;
     }
+}
+
+.navbar-brand .logo {
+  color: #566376;
+  font-weight: 400;
 }
 
 #about {
@@ -157,6 +161,7 @@ section {
 }
 
 #portfolio {
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
   color: #fff;
@@ -181,18 +186,19 @@ section {
   height: auto;
 }
 
-#portfolio .btn {
-  border: 2px solid #fec967;
+#portfolio button {
+  border: 1px solid #fff;
   background: #feae1b;
-  color: #ffedcc;
+  color: #fff;
   text-decoration: none;
   font-weight: 400;
   margin: 2px;
+  box-shadow: 0px 3px 5px #e49501;
 }
 
 #portfolio a {
-text-decoration: none;
-color: #ffedcc;
+  color: #fff;
+  text-decoration: none;
 }
 
 #contact {
