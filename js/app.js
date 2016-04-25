@@ -23,19 +23,19 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#7a899f"
+        "value": "#404a59"
       },
       "shape": {
-        "type": "circle",
+        "type": "triangle",
         "stroke": {
           "width": 0,
-          "color": "#7a899f"
+          "color": "#2b323b"
         },
-        "polygon": {
-          "nb_sides": 5
+        "triangle": {
+          "nb_sides": 3
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "",
           "width": 100,
           "height": 100
         }
@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -63,13 +63,13 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#7a899f",
+        "color": "#2b323b",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 5,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -123,7 +123,7 @@ particlesJS('particles-js',
     "config_demo": {
       "hide_card": false,
       "background_color": "#323a45",
-      "background_image": "",
+      "background_image": "url(img/night-grid.svg)",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
       "background_size": "cover"
