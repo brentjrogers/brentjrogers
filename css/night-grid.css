@@ -1,0 +1,5 @@
+#night-grid {
+    /* Data URI encoded from: night-grid.svg */
+    background: #4b5768 url(data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjUwMHB4IiBoZWlnaHQ9IjUwMHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogPGRlZnM+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkaWVudCIgeDE9IjAuNSIgeTE9IjAiIHgyPSIwLjUiIHkyPSIxIj4KICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMzIzYTQ1IiAvPgogICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0YjU3NjgiIC8+CiAgPC9saW5lYXJHcmFkaWVudD4KIDwvZGVmcz4KIDxnPgogIDxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBzdHJva2Utd2lkdGg9IjAiIHg9IjAiIHk9IjAiIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiAvPgogPC9nPgo8L3N2Zz4KICAgIA==) top repeat-x;
+    background-size: contain;
+  }
