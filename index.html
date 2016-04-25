@@ -15,6 +15,8 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/h1.css" rel="stylesheet">
+    <link href="css/night-grid.css" rel="stylesheet">
+    <link href="css/.css" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     
@@ -28,7 +30,7 @@
     <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     
 </head>
-<body>
+<body id="smoke">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -48,7 +50,7 @@
       </div>
     </nav>
     
-    <section id="graphic" class="intro">
+    <section id="night-grid" class="intro">
     <div id="particles-js">
     <div class="overlay">
     <div class="graph-spacer"></div>
@@ -90,53 +92,27 @@
          </div>
       </div>
  </section>
- <section id="portfolio" class="content">
-      <div class="container">
-      <h2>Portfolio</h2>
-            <p>Display your work here.</p>
-            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left"><a href="http://shapegraph.com">BOOTSTRAP</a></button>
-
-            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><a href="http://shapegraph.com">HTML5</a></button>
-
-            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"><a href="http://shapegraph.com">CSS3</a></button>
-
-            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><a href="http://shapegraph.com">FREE</a></button>
-            <br>
-            <br>
-         <div class="row">
-            <div class="col-md-3 shape-img">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="img/p1.jpg" alt="">
-                </a>
+ <section id="portfolio">
+    <div class="container">
+      <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Sites</h2>
             </div>
-            <div class="col-md-3 shape-img">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="img/p2.jpg" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <button><a class="button" href="http://shapegraph.com"><img src="img/shape-graph.svg" alt=""></a>Shape Graph</button>
             </div>
-            <div class="col-md-3 shape-img">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="img/p3.jpg" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <button><a class="button" href="http://tubebeats.com"><img src="img/tube-beats.svg" alt=""></a>Tube Beats</button>
             </div>
-            <div class="col-md-3 shape-img">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="img/p4.jpg" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <button><a class="button" href="http://affiliatepath.com"><img src="img/affiliate-path.svg" alt=""></a>Affiliate Path</button>
             </div>
-            <div class="col-md-3 shape-img">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="img/p5.jpg" alt="">
-                </a>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <button><a class="button" href="http://affilitalk.com"><img src="img/affili-talk.svg" alt=""></a>Affilitalk</button>
             </div>
-            <div class="col-md-3 shape-img">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="img/p6.jpg" alt="">
-                </a>
-            </div>
-          </div>
+        </div>
       </div>
- </section>
+</section>
  <section id="contact">
       <div class="container">
       <div class="middle">
@@ -149,15 +125,15 @@
  <section id="shape-sub-footer" class="content">
        <div class="container">
           <div class="shape-side-grid">
-            <h4>Features</h4>
+            <h4>Pages</h4>
             <ol class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Affiliates</a></li>
+              <li><a href="#about">Home</a></li>
+              <br>
+              <li><a href="#about">About</a></li>
+              <br>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <br>
+              <li><a href="mailto:contact@brentjrogers.com">Contact</a></li>
             </ol>
           </div>
           <div class="right-graph">
