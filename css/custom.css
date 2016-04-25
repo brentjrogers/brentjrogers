@@ -7,7 +7,7 @@ body {
 
 body {
   font-family: "Proxima Nova", sans-serif, Kohinoor Telugu, Kohinoor Telugu-light;
-  color: #fff;
+  color: #ccc;
   font-size: 16px;
   font-weight: 200;
 }
@@ -18,17 +18,25 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  color: #fff;
+  color: #ccc;
   font-size: 22px;
   font-weight: 200;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 p,.p {
-  color: #fff;
+  color: #ccc;
   font-size: 16px;
   font-weight: 200;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 section {
@@ -119,27 +127,24 @@ section {
 }
 
 #about {
-  background: #1b9af7;
-  color: #fff;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 5px solid #fff;
-  border-top: 5px solid #fff;
-}
-
-#about .container {
-  margin: 10px;
-  border: 1.5px solid #1b9af7;
+  background: transparent;
+  color: #1b9af7;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border: 1px solid #fefefe;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 3px 5px #eee;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #about h3, #about h2, #about h3 small, #about p {
-  color: #fff;
-  margin-top: 10px;
+  color: #1b9af7;
 }
 
 #about .thumbnail {
-  background: #1b9af7;
-  border: 1px solid #1b9af7;
+  background: transparent;
+  border: transparent;
 }
 
 #about .thumbnail img {
@@ -147,8 +152,6 @@ section {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  padding: 12px;
-  border: 1.5px solid #1b9af7;
 }
 
 #about .col-md-4 {
@@ -157,89 +160,99 @@ section {
 }
 
 #about i {
-  color: #fff;
+  color: #1b9af7;
 }
 
 #portfolio {
-  width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
-  color: #fff;
-  background: #feae1b;
-  border-bottom: 5px solid #fff;
+  color: #feae1b;
+  background: transparent;
+  border: 1px solid #fefefe;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 3px 5px #eee;
+  padding: 10px;
 }
 
+#portfolio .page-header {
+  border: none;
+}
+
+#portfolio img {
+  width: 32px;
+  height: 32px;
+}
+  
+
 #portfolio h2 {
-  color: #fff;
-  margin-top: 10px;
+  color: #feae1b;
+}
+
+#portfolio h3 {
+  color: #666666;
 }
 
 #portfolio p {
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#portfolio .shape-img {
-  margin-bottom: 0px;
-  width: 100%;
-  height: auto;
+  color: #feae1b;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #portfolio button {
-  border: 1px solid #fff;
-  background: #feae1b;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 400;
-  margin: 2px;
-  box-shadow: 0px 3px 5px #e49501;
-}
-
-#portfolio a {
-  color: #fff;
-  text-decoration: none;
+  color: #feae1b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #fefefe;
+  border-radius: 0px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px #eee;
 }
 
 #contact {
   text-align: center;
-  background: #ff4351;
-  color: #ffffff;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-bottom: 5px solid #fff;
+  background: transparent;
+  color: #ff4351;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 1px solid #fefefe;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 3px 5px #eee;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #contact i {
-  color: #323a45;
+  color: #566376;
   font-size: 48px;
   margin: 15px;
 }
 
 #contact p {
-  color: #fff;
-  margin-bottom: 15px;
+  color: #ff4351;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #contact .button-bright {
   background: #fff;
   border: 1px solid #fff;
-  border-bottom: 2px solid #eee;
-  border-radius: 7px;
+  border-bottom: 1px solid #eee;
+  border-radius: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   color: #ff4351;
   text-decoration: none;
-  box-shadow: 0px 3px 5px #b3000c;
+  box-shadow: 0px 3px 5px #eee;
 }
 
 #shape-sub-footer .shape-side-grid-inset {
   padding: 15px;
   background-color: #fff;
-  color: #fff;
+  color: #00bcd4;
   border-radius: 4px;
 }
 
@@ -250,15 +263,22 @@ section {
 }
 
 #shape-sub-footer {
-  background: #00bcd4;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  color: #fff;
-  border-bottom: 5px solid #fff;
+  background: transparent;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: #00bcd4;
+  border: 1px solid #fefefe;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 3px 5px #eee;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#shape-sub-footer a {
+#shape-sub-footer li a {
   font-size: 16px;
+  color: #00bcd4;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #shape-sub-footer .shape-side-grid {
@@ -272,11 +292,15 @@ section {
 }
 
 #shape-sub-footer .shape-side-grid h4 {
-  color: #fff;
+  color: #00bcd4;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-#shape-sub-footer .shape-side-grid a {
-  color: #fff;
+#shape-sub-footer .shape-side-grid .list-unstyled a {
+  color: #00bcd4;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #shape-sub-footer .right-graph {
@@ -285,7 +309,7 @@ section {
 
 #shape-sub-footer .right-graph i {
   font-size: 80px;
-  color: #fff;
+  color: #566376;
   margin: 0px;
   padding-right: 15px;
   vertical-align: middle;
@@ -300,7 +324,7 @@ section {
   padding: 40px 0;
   color: #fff;
   text-align: center;
-  background: #323a45;
+  background: #566376;
 }
 
 .shape-footer p {
@@ -313,5 +337,5 @@ section {
 }
 
 .shape-footer a {
-  color: #60677c;
+  color: #fff;
 }
