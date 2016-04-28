@@ -92,27 +92,27 @@
          </div>
       </div>
  </section>
+ 
+ <hr>
+ 
  <section id="portfolio">
     <div class="container">
-      <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Sites</h2>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <button><a class="button" href="http://shapegraph.com"><img src="img/shape-graph.svg" alt=""></a>Shape Graph</button>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <button><a class="button" href="http://tubebeats.com"><img src="img/tube-beats.svg" alt=""></a>Tube Beats</button>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <button><a class="button" href="http://affiliatepath.com"><img src="img/affiliate-path.svg" alt=""></a>Affiliate Path</button>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <button><a class="button" href="http://affilitalk.com"><img src="img/affili-talk.svg" alt=""></a>Affilitalk</button>
+           <div class="row">
+             <h2>Services</h2>
+              <div class="col-sm-4 col-xs-6">
+              <h3>Websites</h3>
+              <p>I design websites and build mobile apps. I also do some UI/UX design.  </p>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+              <h3>Mobile Apps</h3>
+              <p>I design websites and build mobile apps. I also do some UI/UX design.</p>
+              </div>
             </div>
         </div>
-      </div>
 </section>
+
+<hr>
+
  <section id="contact">
       <div class="container">
       <div class="middle">
@@ -121,7 +121,111 @@
       <p><a class="button-bright" href="mailto:contact@brentjrogers.com">Write Message</a></p>
       </div>
       </div>
- </section>        
+ </section>
+ 
+ <section id="canvas-holder">
+ <canvas id="chart-area"></canvas>
+ 
+ <script>
+    var randomScalingFactor = function() {
+        return Math.round(Math.random() * 100);
+    };
+    var randomColorFactor = function() {
+        return Math.round(Math.random() * 255);
+    };
+    var randomColor = function(opacity) {
+        return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
+    };
+
+    var config = {
+        data: {
+            datasets: [{
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                ],
+                backgroundColor: [
+                    "#ff4351",
+                    "#1b9af7",
+                    "#feae1b",
+                    "#eeeeee",
+                    "#566376",
+                ],
+                label: 'My dataset' // for legend
+            }],
+            labels: [
+                "HTML5",
+                "CSS3",
+                "JS",
+                "Websites",
+                "Apps"
+            ]
+        },
+        options: {
+            responsive: true,
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: 'Play with the graph'
+            },
+            scale: {
+              ticks: {
+                beginAtZero: true
+              },
+              reverse: false
+            },
+            animation: {
+                animateRotate: false
+            }
+        }
+    };
+
+    window.onload = function() {
+        var ctx = document.getElementById("chart-area");
+        window.myPolarArea = Chart.PolarArea(ctx, config);
+    };
+
+    $('#randomizeData').click(function() {
+        $.each(config.data.datasets, function(i, piece) {
+            $.each(piece.data, function(j, value) {
+                config.data.datasets[i].data[j] = randomScalingFactor();
+                config.data.datasets[i].backgroundColor[j] = randomColor();
+            });
+        });
+        window.myPolarArea.update();
+    });
+
+    $('#addData').click(function() {
+        if (config.data.datasets.length > 0) {
+            config.data.labels.push('dataset #' + config.data.labels.length);
+
+            $.each(config.data.datasets, function(i, dataset) {
+                dataset.backgroundColor.push(randomColor());
+                dataset.data.push(randomScalingFactor());
+            });
+
+            window.myPolarArea.update();
+        }
+    });
+
+    $('#removeData').click(function() {
+        config.data.labels.pop(); // remove the label first
+
+        $.each(config.data.datasets, function(i, dataset) {
+            dataset.backgroundColor.pop();
+            dataset.data.pop();
+        });
+
+        window.myPolarArea.update();
+    });
+   
+ </script>
+ </section>
  <section id="shape-sub-footer" class="content">
        <div class="container">
           <div class="shape-side-grid">
@@ -153,31 +257,38 @@
         </div><!-- /.shape-side-grid -->
     </div><!-- /.container -->
 </section>
-    <footer class="shape-footer">
-      <p>Download the template at <a href="http://shapegraph.com">Shape Graph</a> by <a href="https://twitter.com/shapegraph">@shapegraph</a>.</p>
+<section id="shape-footer">
+  <div class="container">
+    <footer>
+      <p>You have just visited brentjrogers.com 2016. Design by Brent J. Rogers.</p>
       <p>
         <a href="#">Back to top</a>
       </p>
-    </footer>    
+    </footer>
+  </div>  
+</section>
+
+
     
     <!-- particles JS -->
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-        <script>
-          WebFont.load({
-          google: {
-          families: ['Kohinoor Telugu', 'Kohinoor Telugu-light']
-           }
-          });
-        </script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- chart.js JS -->
+    <script src="js/pie.js"></script>
+    <script src="js/Chart.bundle.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     
     <!-- Bootstrap core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <!-- font js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+    
+    <script src="js/font.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
