@@ -11,7 +11,6 @@ body {
   height: 100%;
   font-family: "AvenirNext-Regular", sans-serif;
   color: #ccc;
-  font-size: 16px;
   font-weight: 200;
 }
 
@@ -21,19 +20,16 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  color: #ccc;
-  font-size: 22px;
-  font-weight: 200;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 p,.p {
   color: #ccc;
-  font-size: 16px;
   font-weight: 200;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 a {
@@ -50,6 +46,7 @@ section {
 hr {
   width: 80%;
   border-color: #eee;
+  border-width: 1px;
   margin-left: 10%;
 }
 
@@ -61,8 +58,8 @@ hr {
 /* title */
 .navbar-default .navbar-brand {
     color: #1b9af7;
-    font-weight: 200;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 30px;
 }
 .navbar-default .navbar-brand:hover,
@@ -114,9 +111,10 @@ hr {
 .navbar-default .navbar-toggle:focus {
     background-color: #fff;
 }
-.navbar-default .navbar-toggle .icon-compass {
+.navbar-default .navbar-toggle img {
     color: #1b9af7;
-    font-size: 22px;
+    width: 25px;
+    height: 22px;
     line-height: 30px;
 }
 @media (max-width: 767px) {
@@ -144,8 +142,15 @@ hr {
   margin: 0px;
 }
 
+#about h1 {
+  font-size: 20px;
+  color: #1b9af7;
+  padding-bottom: 10px;
+}
+
 #about h3, #about h2, #about h3 small, #about p {
   color: #1b9af7;
+  padding-bottom: 10px;
 }
 
 #about .thumbnail {
@@ -179,12 +184,21 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+#portfolio i {
+  margin-left: 50%;
+  color: #566376;
+  font-size: 48px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
 #portfolio .row {
   padding: 15px;
 }
 
-#portfolio h2 {
-  float: center;
+#portfolio h1 {
+  font-size: 20px;
+  margin-left: 5%;
   color: #feae1b;
 }
 
@@ -194,8 +208,6 @@ hr {
 
 #portfolio p {
   color: #feae1b;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 #contact {
@@ -213,6 +225,13 @@ hr {
   font-size: 48px;
   padding-bottom: 15px;
   padding-top: 15px;
+}
+
+#contact h1 {
+  font-size: 20px;
+  color: #ff4351;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #contact p {
@@ -233,6 +252,7 @@ hr {
   color: #ff4351;
   text-decoration: none;
   box-shadow: 0px 3px 5px #eee;
+  font-size: 16px;
 }
 
 #shape-sub-footer {
@@ -262,7 +282,8 @@ hr {
   padding-top: 10px;
 }
 
-#shape-sub-footer .shape-side-grid h4 {
+#shape-sub-footer .shape-side-grid h1 {
+  font-size: 20px;
   color: #00bcd4;
   padding-bottom: 10px;
   padding-top: 10px;
