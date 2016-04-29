@@ -36,7 +36,7 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
-            <i class="icon-compass"></i>
+            <img src="img/nav.svg">
           </button>
           <a class="navbar-brand" href="#">B<span class="logo">J</span>R</a>
         </div>
@@ -67,7 +67,7 @@
       <div class="container">
       <div class="row">
       <div class="col-md-4 text-center">
-      <h2>About Me</h2>
+      <h1>About Me</h1>
             <p>I create websites and build apps.</p>
             <br>
             </div>
@@ -98,7 +98,8 @@
  <section id="portfolio">
     <div class="container">
            <div class="row">
-             <h2>Services</h2>
+           <i class="icon-graph"></i>
+             <h1>Services</h1>
               <div class="col-sm-4 col-xs-6">
               <h3>Websites</h3>
               <p>I design websites and build mobile apps. I also do some UI/UX design.  </p>
@@ -117,119 +118,19 @@
       <div class="container">
       <div class="middle">
       <i class="icon-envelope"></i>
+      <h1>Contact Us</h1>
       <p>Feel free to send a message.</p>
       <p><a class="button-bright" href="mailto:contact@brentjrogers.com">Write Message</a></p>
       </div>
       </div>
  </section>
  
- <section id="canvas-holder">
- <canvas id="chart-area"></canvas>
+ <hr>
  
- <script>
-    var randomScalingFactor = function() {
-        return Math.round(Math.random() * 100);
-    };
-    var randomColorFactor = function() {
-        return Math.round(Math.random() * 255);
-    };
-    var randomColor = function(opacity) {
-        return 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',' + (opacity || '.3') + ')';
-    };
-
-    var config = {
-        data: {
-            datasets: [{
-                data: [
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                ],
-                backgroundColor: [
-                    "#ff4351",
-                    "#1b9af7",
-                    "#feae1b",
-                    "#eeeeee",
-                    "#566376",
-                ],
-                label: 'My dataset' // for legend
-            }],
-            labels: [
-                "HTML5",
-                "CSS3",
-                "JS",
-                "Websites",
-                "Apps"
-            ]
-        },
-        options: {
-            responsive: true,
-            legend: {
-                position: 'top',
-            },
-            title: {
-                display: true,
-                text: 'Play with the graph'
-            },
-            scale: {
-              ticks: {
-                beginAtZero: true
-              },
-              reverse: false
-            },
-            animation: {
-                animateRotate: false
-            }
-        }
-    };
-
-    window.onload = function() {
-        var ctx = document.getElementById("chart-area");
-        window.myPolarArea = Chart.PolarArea(ctx, config);
-    };
-
-    $('#randomizeData').click(function() {
-        $.each(config.data.datasets, function(i, piece) {
-            $.each(piece.data, function(j, value) {
-                config.data.datasets[i].data[j] = randomScalingFactor();
-                config.data.datasets[i].backgroundColor[j] = randomColor();
-            });
-        });
-        window.myPolarArea.update();
-    });
-
-    $('#addData').click(function() {
-        if (config.data.datasets.length > 0) {
-            config.data.labels.push('dataset #' + config.data.labels.length);
-
-            $.each(config.data.datasets, function(i, dataset) {
-                dataset.backgroundColor.push(randomColor());
-                dataset.data.push(randomScalingFactor());
-            });
-
-            window.myPolarArea.update();
-        }
-    });
-
-    $('#removeData').click(function() {
-        config.data.labels.pop(); // remove the label first
-
-        $.each(config.data.datasets, function(i, dataset) {
-            dataset.backgroundColor.pop();
-            dataset.data.pop();
-        });
-
-        window.myPolarArea.update();
-    });
-   
- </script>
- </section>
  <section id="shape-sub-footer" class="content">
        <div class="container">
           <div class="shape-side-grid">
-            <h4>Pages</h4>
+            <h1>Pages</h1>
             <ol class="list-unstyled">
               <li><a href="#about">Home</a></li>
               <br>
@@ -245,7 +146,7 @@
           <i class="icon-pencil"></i>
           </div>
           <div class="shape-side-grid">
-            <h4>Social</h4>
+            <h1>Social</h1>
             <ol class="list-unstyled">
               <li><a href="http://facebook.com/brent.rogers.121"><i class="fa fa-facebook"></i></a></li>
               <li><a href="http://twitter.com/brentjrogers"><i class="fa fa-twitter"></i></a></li>
