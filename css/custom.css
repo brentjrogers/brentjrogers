@@ -3,13 +3,14 @@ body {
   width: 100%;
   height: 100%;
   margin: 0px;
+  background: transparent;
 }
 
 body {
   margin: 0px;
   width: 100%;
   height: 100%;
-  font-family: "PingFangHK-Thin", PingFangHK;
+  font-family: "Ingra Condensed Ultra Light", sans-serif;
   color: #ccc;
   font-weight: 200;
 }
@@ -43,11 +44,12 @@ section {
   margin: 0px;
 }
 
-hr {
-  width: 80%;
-  border-color: #eee;
-  border-width: 1px;
-  margin-left: 10%;
+.break {
+  height: 1px;
+  width: 100%;
+  margin: 0px;
+  background: transparent;
+  border: transparent;
 }
 
 /* navbar */
@@ -133,12 +135,11 @@ hr {
 }
 
 #about {
-  background: transparent;
+  background: #f9f9f9;
   color: #1b9af7;
   padding-bottom: 50px;
   padding-top: 50px;
-  border: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border: #f9f9f9;
   margin: 0px;
 }
 
@@ -166,8 +167,8 @@ hr {
 }
 
 #about .col-md-4 {
-  border: transparent;
-  background: transparent;
+  border: #f9f9f9;
+  background: #f9f9f9;
 }
 
 #about i {
@@ -179,9 +180,7 @@ hr {
   padding-top: 25px;
   padding-bottom: 25px;
   color: #feae1b;
-  background: transparent;
-  border: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  background: #fff;
 }
 
 #services i {
@@ -212,12 +211,10 @@ hr {
 
 #contact {
   text-align: center;
-  background: transparent;
+  background: #f8f8f8;
   color: #ff4351;
   padding-top: 50px;
   padding-bottom: 50px;
-  border: 1px solid #fff;
-  border-bottom: 1px solid #fff;
   margin: 0px;
 }
 #contact i {
@@ -260,8 +257,6 @@ hr {
   padding-bottom: 50px;
   padding-top: 50px;
   color: #00bcd4;
-  border: 1px solid #fff;
-  border-bottom: 1px solid #fff;
   margin: 0px;
 }
 
@@ -297,6 +292,7 @@ hr {
 
 #shape-sub-footer .right-graph {
   float: right;
+  background: transparent;
 }
 
 #canvas-holder canvas {
