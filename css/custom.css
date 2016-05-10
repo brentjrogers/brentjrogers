@@ -209,6 +209,43 @@ section {
   color: #feae1b;
 }
 
+#portfolio {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio .container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio .col-md-offset-2, .col-md-8 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio .row {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio .row .col-sm-4 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio .row .img-responsive {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
 #contact {
   text-align: center;
   background: #f8f8f8;
