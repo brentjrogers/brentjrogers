@@ -155,7 +155,7 @@ canvas{
   text-align: center;
   font-size: 18px;
   border: 3px solid #1b9af7;
-  border-radius: 0px;
+  border-radius: 2px;
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 22px;
@@ -164,6 +164,7 @@ canvas{
   background: #1b9af7;
   font-weight: 200;
   text-transform: uppercase;
+  box-shadow: 0px 3px 5px #404a59;
 }
 
 
