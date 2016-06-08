@@ -1,3 +1,5 @@
 # brentjrogers.github.io
 
-This is a project built with Bootstrap.
+Personal Portfolio
+
+Single Page Template Built Using Bootstrap
