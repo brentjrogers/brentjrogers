@@ -31,7 +31,7 @@ html{
 }
 
 body{
-  font-family: "PingFangHK-Thin", PingFangHK;
+  font-family: "AppleSDGothicNeo-UltraLight", sans-serif;
 }
 
 canvas{
@@ -57,8 +57,8 @@ canvas{
   text-indent: 4px;
   line-height: 14px;
   padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: AppleSDGothicNeo-UltraLight, sans-serif;
+  font-weight: normal;
 }
 
 .js-count-particles{
@@ -166,5 +166,4 @@ canvas{
   text-transform: uppercase;
   box-shadow: 0px 3px 5px #404a59;
 }
-
 
