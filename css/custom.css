@@ -257,7 +257,7 @@ section {
 }
 #contact i {
   color: #566376;
-  font-size: 48px;
+  font-size: 32px;
   padding-bottom: 15px;
   padding-top: 15px;
 }
@@ -275,19 +275,26 @@ section {
   padding-top: 10px;
 }
 
-#contact .button-bright {
-  background: #fff;
-  border: 1px solid #fff;
-  border-bottom: 1px solid #eee;
-  border-radius: 2px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #ff4351;
-  text-decoration: none;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
-  font-size: 16px;
+#contact .call {
+    text-decoration: none;
+    color: #ff4351;
+}
+
+.call:hover,
+.call:focus {
+    color: #ff4351;
+    text-decoration: none;
+}
+
+#contact .mail {
+    text-decoration: none;
+    color: #ff4351;
+}
+
+.mail:hover,
+.mail:focus {
+    color: #ff4351;
+    text-decoration: none;
 }
 
 #shape-sub-footer {
