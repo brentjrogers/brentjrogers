@@ -58,7 +58,7 @@ canvas{
   line-height: 14px;
   padding-bottom: 2px;
   font-family: AppleSDGothicNeo-UltraLight, sans-serif;
-  font-weight: normal;
+  font-weight: 200;
 }
 
 .js-count-particles{
@@ -137,21 +137,31 @@ canvas{
   color: #eee;
 }
 
-.overlay p {
-  text-transform: uppercase;
-  border: 1px solid #00bcd4;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 35px;
-  margin-right: 35px;
+#mid {
+  width: 100%;
   text-align: center;
-  color: #eee;
-  font-size: 22px;
+}
+
+#mid p {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
   font-weight: 200;
   background: transparent;
 }
 
-.overlay a {
+#mid img {
+  border-radius: 0px;
+  width: 54%;
+  height: auto;
+}
+
+.overlay .learn {
   text-align: center;
   font-size: 18px;
   border: 3px solid #1b9af7;
@@ -165,4 +175,12 @@ canvas{
   font-weight: 200;
   text-transform: uppercase;
   box-shadow: 0px 3px 5px #404a59;
+}
+
+.untitled {
+ -moz-transform: scale(1) rotate(3deg);
+-webkit-transform: scale(1) rotate(3deg);
+-o-transform: scale(1) rotate(3deg);
+-ms-transform: scale(1) rotate(3deg);
+transform: scale(1) rotate(3deg);
 }
