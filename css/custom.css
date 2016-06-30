@@ -69,6 +69,9 @@ section {
 .navbar-default .navbar-brand:focus {
     color: #1b9af7;
 }
+.navbar-default #navbar {
+    border: 1px solid #fff;
+}
 /* link */
 .navbar-default .navbar-nav > li > a {
     color: #1b9af7;
