@@ -4,4 +4,4 @@ Personal Portfolio
 
 Single Page Template Built Using Bootstrap
 
-http://brentjrogers.com
+http://www.brentjrogers.com
