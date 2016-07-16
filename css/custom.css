@@ -52,6 +52,89 @@ section {
   border: transparent;
 }
 
+/* navbar */
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #1b9af7;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #1b9af7;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #1b9af7;
+    line-height: 30px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #1b9af7;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #1b9af7;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #1b9af7;
+    background-color: #fff;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle img {
+    color: #1b9af7;
+    width: 20px;
+    height: 18px;
+    line-height: 30px;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #1b9af7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #1b9af7;
+    }
+}
+
+.navbar-brand .logo {
+  color: #566376;
+  font-weight: 400;
+}
+
 #menu {
   width: 100%;
   margin: 0px;
@@ -69,8 +152,7 @@ section {
   background: #fff;
 }
 #menu ul.shapegraph .brand {
-  font-size: 24px;
-  padding: 16px 16px;
+  font-size: 22px;
   line-height: 32px;
 }
 #menu ul.shapegraph .brand .logo {
@@ -83,7 +165,7 @@ section {
   display: inline-block;
   color: #566376;
   text-align: center;
-  padding: 16px 16px;;
+  padding: 16px 16px;
   text-decoration: none;
   transition: 0.3s;
   font-size: 14px;
@@ -93,7 +175,8 @@ section {
 #menu ul.shapegraph li a:hover {background: #fff;}
 
 #menu ul.shapegraph li.icon {display: none;}
-#menu ul.shapegraph li.icon button {background: #fff; border: 1px solid #fff; color: #00bcd4; font-size: 26px; padding: 16px 16px; line-height: 32px;}
+#menu ul.shapegraph li.icon button {background: transparent; border: 1px solid transparent; color: #1b9af7; font-size: 24px; padding: 16px 16px;}
+#menu ul.shapegraph li.icon button i {font-size: 24px; color: #1b9af7; line-height: 32px;}
 @media screen and (max-width:680px) {
   #menu ul.shapegraph li:not(:first-child) {display: none;}
   #menu ul.shapegraph li.icon {
