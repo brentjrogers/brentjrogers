@@ -31,7 +31,7 @@ html{
 }
 
 body{
-  font-family: "AppleSDGothicNeo-UltraLight", sans-serif;
+  font-family: "PingFangHK-UltraLight", PingFangHK;
 }
 
 canvas{
@@ -57,7 +57,7 @@ canvas{
   text-indent: 4px;
   line-height: 14px;
   padding-bottom: 2px;
-  font-family: AppleSDGothicNeo-UltraLight, sans-serif;
+  font-family: "PingFangHK-UltraLight", PingFangHK;
   font-weight: 200;
 }
 
@@ -143,8 +143,6 @@ canvas{
 }
 
 #mid p {
-  border: 1.5px solid #00bcd4;
-  border-radius: 2px;
   padding-top: 12px;
   padding-bottom: 8px;
   margin-left: 20%;
