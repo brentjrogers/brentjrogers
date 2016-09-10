@@ -65,6 +65,7 @@ body {
 }
 
 .overlay h1 {
+  font-family: PingFangHK-UltraLight, PingFangHK;
   text-align: center;
   color: #fff;
   font-size: 40px;
@@ -125,7 +126,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-weight: 400;
+  font-family: PingFangHK-UltraLight, PingFangHK;
+  font-weight: 200;
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -238,15 +240,26 @@ section {
   border: #f9f9f9;
 }
 
-#about h1 {
-  font-size: 20px;
+#about h3 {
   color: #1b9af7;
   padding-bottom: 10px;
 }
 
-#about h3, #about h2, #about h3 small, #about p {
+#about h4 {
   color: #1b9af7;
   padding-bottom: 10px;
+}
+
+#about h4 small {
+  color: #1b9af7;
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+
+#about p {
+  color: #1b9af7;
+  padding-bottom: 10px;
+  font-weight: 200;
 }
 
 #about .thumbnail {
@@ -291,14 +304,15 @@ section {
   padding: 15px;
 }
 
-#services h1 {
-  font-size: 20px;
+#services h3 {
   margin-left: 5%;
   color: #feae1b;
+  font-weight: 400;
 }
 
-#services h3 {
+#services h4 {
   color: #feae1b;
+  font-weight: 200;
 }
 
 #services p {
@@ -322,17 +336,18 @@ section {
   padding-top: 15px;
 }
 
-#contact h1 {
-  font-size: 20px;
+#contact h3 {
   color: #ff4351;
   padding-bottom: 10px;
   padding-top: 10px;
+  font-weight: 400;
 }
 
 #contact p {
   color: #ff4351;
   padding-bottom: 10px;
   padding-top: 10px;
+  font-weight: 200;
 }
 
 #contact .call {
@@ -391,11 +406,11 @@ section {
   padding-top: 10px;
 }
 
-#shape-sub-footer .shape-side-grid h1 {
-  font-size: 20px;
+#shape-sub-footer .shape-side-grid h3 {
   color: #00bcd4;
   padding-bottom: 10px;
   padding-top: 10px;
+  font-weight: 400;
 }
 
 #shape-sub-footer .shape-side-grid .list-unstyled a {
@@ -426,8 +441,6 @@ section {
   margin: 0px;
   padding-bottom: 40px;
   padding-top: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
   color: #fff;
   text-align: center;
   background: #566376;
@@ -451,8 +464,8 @@ section {
 
 #shape-footer i {
   font-size: 22px;
-  border: 2px solid #00bcd4;
-  color: #00bcd4;
+  border: 2px solid #566376;
+  color: #566376;
   width: 26px;
   height: 26px;
   border-radius: 0px;
