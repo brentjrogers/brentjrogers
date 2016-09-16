@@ -233,7 +233,7 @@ section {
 #about {
   margin: 0px;
   padding: 0px;
-  background: #f9f9f9;
+  background: #fdfdfd;
   color: #1b9af7;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -275,8 +275,8 @@ section {
 }
 
 #about .col-md-4 {
-  border: #f9f9f9;
-  background: #f9f9f9;
+  border: #fdfdfd;
+  background: #fdfdfd;
 }
 
 #about i {
@@ -288,13 +288,13 @@ section {
   padding: 0px;
   padding-top: 25px;
   padding-bottom: 25px;
-  color: #feae1b;
+  color: #566376;
   background: #fff;
 }
 
 #services i {
   margin-left: 50%;
-  color: #feae1b;
+  color: #566376;
   font-size: 48px;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -306,45 +306,45 @@ section {
 
 #services h3 {
   margin-left: 5%;
-  color: #feae1b;
+  color: #566376;
   font-weight: 400;
 }
 
 #services h4 {
-  color: #feae1b;
+  color: #566376;
   font-weight: 200;
 }
 
 #services p {
-  color: #feae1b;
+  color: #566376;
 }
 
 #contact {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  background: #f8f8f8;
-  color: #ff4351;
+  background: #fdfdfd;
+  color: #0667ac;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 #contact i {
-  color: #ff4351;
+  color: #0667ac;
   font-size: 32px;
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
 #contact h3 {
-  color: #ff4351;
+  color: #0667ac;
   padding-bottom: 10px;
   padding-top: 10px;
   font-weight: 400;
 }
 
 #contact p {
-  color: #ff4351;
+  color: #0667ac;
   padding-bottom: 10px;
   padding-top: 10px;
   font-weight: 200;
@@ -352,31 +352,31 @@ section {
 
 #contact .call {
     text-decoration: none;
-    color: #ff4351;
+    color: #0667ac;
 }
 
 #contact .call:hover {
-    color: #ff4351;
+    color: #0667ac;
     text-decoration: none;
 }
 
 #contact .call:focus {
-    color: #ff4351;
+    color: #0667ac;
     text-decoration: none;
 }
 
 #contact .mail {
     text-decoration: none;
-    color: #ff4351;
+    color: #0667ac;
 }
 
 #contact .mail:hover {
-    color: #ff4351;
+    color: #0667ac;
     text-decoration: none;
 }
 
 #contact .mail:focus {
-    color: #ff4351;
+    color: #0667ac;
     text-decoration: none;
 }
 
