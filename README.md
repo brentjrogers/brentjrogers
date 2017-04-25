@@ -1,3 +1,8 @@
 # brentjrogers.github.io
 
-This is a project built with Bootstrap.
+Personal Website
+
+Single Page Website
+
+http://www.brentjrogers.com
+
