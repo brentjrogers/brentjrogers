@@ -1,7 +1,7 @@
 # brentjrogers.github.io
 
-Personal Portfolio
+Personal Website
 
-Single Page Template Built Using Bootstrap
+Single Page Website
 
 http://www.brentjrogers.com
