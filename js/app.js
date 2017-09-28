@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 3
         },
         "image": {
-          "src": "",
+          "src": "img/atom.png",
           "width": 100,
           "height": 100
         }
