@@ -26,13 +26,13 @@ particlesJS('particles-js',
         "value": "#404a59"
       },
       "shape": {
-        "type": "triangle",
+        "type": "image",
         "stroke": {
           "width": 0,
           "color": "#2b323b"
         },
-        "triangle": {
-          "nb_sides": 3
+        "polygon": {
+          "nb_sides": 5
         },
         "image": {
           "src": "img/atom.png",
@@ -64,7 +64,7 @@ particlesJS('particles-js',
         "enable": true,
         "distance": 150,
         "color": "#2b323b",
-        "opacity": 0.4,
+        "opacity": 0,
         "width": 1
       },
       "move": {
@@ -123,7 +123,7 @@ particlesJS('particles-js',
     "config_demo": {
       "hide_card": false,
       "background_color": "#323a45",
-      "background_image": "url(img/night-grid.svg)",
+      "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
       "background_size": "cover"
