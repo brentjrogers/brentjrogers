@@ -30,7 +30,7 @@ var pJS = function(tag_id, params){
         value: '#404a59'
       },
       shape: {
-        type: 'circle',
+        type: 'image',
         stroke: {
           width: 0,
           color: '#404a59'
@@ -68,7 +68,7 @@ var pJS = function(tag_id, params){
         enable: true,
         distance: 100,
         color: '#404a59',
-        opacity: 1,
+        opacity: 0,
         width: 1
       },
       move: {
