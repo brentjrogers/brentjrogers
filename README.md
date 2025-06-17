@@ -1,4 +1,4 @@
-# brentjrogers.github.io
+# brentjrogers
 
 Personal Website
 
